@@ -3,10 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    Test
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="title">
+                <div>
+                    <img class="title-image" src="img/tangram.svg">
+                </div>
+                <div class="title-text">
+                    Dashboard
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <div><img class="list-image" src="img/home.svg"></div>
+                <div class="list-text">Home</div>
+                <div><img class="list-image" src="img/card-account-details.svg"></div>
+                <div class="list-text">Profile</div>
+                <div><img class="list-image" src="img/message.svg"></div>
+                <div class="list-text">Messages</div>
+                <div><img class="list-image" src="img/clock-outline.svg"></div>
+                <div class="list-text">History</div>
+                <div><img class="list-image" src="img/calendar-check-outline.svg"></div>
+                <div class="list-text">Tasks</div>
+                <div><img class="list-image" src="img/foot-print.svg"></div>
+                <div class="list-text">Communities</div>
+                <div></div>
+                <div class="list-text"></div>
+                <div><img class="list-image" src="img/clock-outline.svg"></div>
+                <div class="list-text">Settings</div>
+                <div><img class="list-image" src="img/calendar-check-outline.svg"></div>
+                <div class="list-text">Support</div>
+                <div><img class="list-image" src="img/foot-print.svg"></div>
+                <div class="list-text">Privacy</div>
+            </div>
+        </div>
+        <div class="header">
+            <form>
+                <label for="search"><img class="search-icon" src="img/magnify.svg"></label>
+                <input class="search" type="search" id="search" name="search">
+            </form>  
+            <div class="upper-right">
+                <div><img height="24" src="img/bell-ring-outline.svg"></div>
+                <div><img height="36" style="margin-top: -7px" src="img/face-man.svg"></div>
+                <div>Jason Steeves</div>
+            </div>
+            <div class="lower-left">
+                <div><img height="64" style="margin-top: -7px" src="img/face-man.svg"></div>
+                <div>
+                    <p style="margin-left: 8px; margin-top: 9px; margin-bottom: 3px; font-size: .7rem;">Hi there.</p>
+                    <h3 style="margin: 0; margin-left: 8px">Jason Steeves (@jason)</h3>
+                </div>
+            </div>
+            <div class="lower-right">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+
+        </div>
+        <div class="content">
+            <h3 style="padding-left: 20px;">Your Projects</h3><h3>Announcements</h3>
+            <div class="cards">
+                <div class="card">
+                    <div>
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card-icons">
+                        <img class="card-icon" height="24px" src="img/star-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/eye-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/dance-pole.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card-icons">
+                        <img class="card-icon" height="24px" src="img/star-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/eye-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/dance-pole.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card-icons">
+                        <img class="card-icon" height="24px" src="img/star-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/eye-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/dance-pole.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card-icons">
+                        <img class="card-icon" height="24px" src="img/star-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/eye-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/dance-pole.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card-icons">
+                        <img class="card-icon" height="24px" src="img/star-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/eye-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/dance-pole.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card-icons">
+                        <img class="card-icon" height="24px" src="img/star-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/eye-plus-outline.svg">
+                        <img class="card-icon" height="24px" src="img/dance-pole.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="right-card">
+                    <p style="font-weight: bold; font-size: .8rem;">Site Maintenance</p>
+                    <p style="color: gray; font-size: .7rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <hr>
+                    <p style="font-weight: bold; font-size: .8rem;">Site Maintenance</p>
+                    <p style="color: gray; font-size: .7rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <hr>
+                    <p style="font-weight: bold; font-size: .8rem;">Site Maintenance</p>
+                    <p style="color: gray; font-size: .7rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    
+                </div>
+                <h3 class="right-card-title">Trending</h3>
+                <div class="right-card trending">
+                    <div class="trending-item">
+                        <div>
+                            <img height="36" src="img/dog-side.svg">
+                        </div>
+                        <div>
+                            <p style="font-weight: bold; font-size: .8rem;">@tegan</p>
+                            <p style="color: gray; font-size: .7rem;">World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div>
+                            <img height="36" src="img/face-man.svg">
+                        </div>
+                        <div>
+                            <p style="font-weight: bold; font-size: .8rem;">@morgan</p>
+                            <p style="color: gray; font-size: .7rem;">Super Cool Project</p>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div>
+                            <img height="36" src="img/spider-outline.svg">
+                        </div>
+                        <div>
+                            <p style="font-weight: bold; font-size: .8rem;">@kendall</p>
+                            <p style="color: gray; font-size: .7rem;">Life Changing App</p>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <div>
+                            <img height="36" src="img/penguin.svg">
+                        </div>
+                        <div>
+                            <p style="font-weight: bold; font-size: .8rem;">@alex</p>
+                            <p style="color: gray; font-size: .7rem;">No Traffic Maker</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
